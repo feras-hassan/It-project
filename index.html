@@ -18,7 +18,7 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
     />
     <!-- custom css file  -->
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="stylee.css" />
   </head>
 
   <body>
@@ -56,23 +56,23 @@
         <div class="swiper-wrapper">
           <div class="swiper-slide box1">
             <div class="orderNow">
-              <button>See Products</button>
+              <a href="admin_page.html"> See Products</a>
             </div>
           </div>
 
           <div class="swiper-slide box2">
             <div class="orderNow">
-              <button>See Products</button>
+              <a href="admin_update.html"> See Products</a>
             </div>
           </div>
           <div class="swiper-slide box3">
             <div class="orderNow">
-              <button>See Products</button>
+              <a href="admin_update.php"> See Products</a>
             </div>
           </div>
           <div class="swiper-slide box4">
             <div class="orderNow">
-              <button>See Products</button>
+              <a href="tes.php"> See Products</a>
             </div>
           </div>
         </div>
@@ -84,19 +84,78 @@
     <!-- login section start here  -->
 
     <section class="login" id="login">
-      <div>
-        <form action="">
-          <h3>Login</h3>
-          <input type="email" name="" placeholder="E-mail" id="" class="box" />
-          <input type="password" placeholder="Password" class="box" />
-
-          <input type="button" value="Login" class="box2" />
-        </form>
-      </div>
-      <div class="reg">
-        <div class="insreg">
-          <p>You don't have account?</p>
-          <button class="box2">Register</button>
+      <div class="container">
+        <input type="checkbox" id="flip" />
+        <div class="cover">
+          <div class="front">
+            <img src="images/bakk.webp" alt="" />
+            <div class="text"></div>
+          </div>
+          <div class="back">
+            <img class="backImg" src="images/backImg.jpg" alt="" />
+            <div class="text">
+              <span class="text-1"
+                >Complete miles of journey <br />
+                with one step</span
+              >
+              <span class="text-2">Let's get started</span>
+            </div>
+          </div>
+        </div>
+        <div class="forms">
+          <div class="form-content">
+            <div class="login-form">
+              <div class="title">Login</div>
+              <form action="#">
+                <div class="input-boxes">
+                  <div class="input-box">
+                    <i class="fas fa-envelope"></i>
+                    <input type="text" placeholder="E-mail" required />
+                  </div>
+                  <div class="input-box">
+                    <i class="fas fa-lock"></i>
+                    <input type="password" placeholder=" password" required />
+                  </div>
+                  <div class="text"><a href="#">Forgot password?</a></div>
+                  <div class="button input-box">
+                    <input type="submit" value="Login" />
+                  </div>
+                  <div class="text sign-up-text">
+                    Don't have an account? <label for="flip">Register</label>
+                  </div>
+                </div>
+              </form>
+            </div>
+            <div class="signup-form">
+              <div class="title">Signup</div>
+              <form action="#">
+                <div class="input-boxes">
+                  <div class="input-box">
+                    <i class="fas fa-user"></i>
+                    <input type="text" placeholder="Your name" required />
+                  </div>
+                  <div class="input-box">
+                    <i class="fas fa-envelope"></i>
+                    <input type="text" placeholder="Enter  email" required />
+                  </div>
+                  <div class="input-box">
+                    <i class="fas fa-lock"></i>
+                    <input
+                      type="password"
+                      placeholder="Enter  password"
+                      required
+                    />
+                  </div>
+                  <div class="button input-box">
+                    <input type="submit" value="Sumbit" />
+                  </div>
+                  <div class="text sign-up-text">
+                    Already have an account? <label for="flip">Login now</label>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
         </div>
       </div>
     </section>
@@ -109,10 +168,10 @@
         <div class="mainBox"></div>
         <div class="box">
           <h3>Quick link</h3>
-          <a href="#"> <i class="fas fa-arrow-right"></i>Home</a>
-          <a href="#"> <i class="fas fa-arrow-right"></i>product</a>
-
-          <a href="#"> <i class="fas fa-arrow-right"></i>contact</a>
+          <a href="#home"> <i class="fas fa-arrow-right"></i>Home</a>
+          <a href="#product"> <i class="fas fa-arrow-right"></i>product</a>
+          <a href="#login "> <i class="fas fa-arrow-right"></i>Login</a>
+          <a href="#contact"> <i class="fas fa-arrow-right"></i>contact</a>
         </div>
 
         <div class="box">
